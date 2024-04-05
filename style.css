@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: flex-start;   
+}
+
+h1 {
+    margin: 0 0 1rem;
+    padding-left: 3rem;
+}
+
+hr {
+    margin: 0;
+    width: 100%;
+    
+}
+
+nav {
+    width: 100vw;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 0.7em;
+    padding: 0.5em;
+    
+}
